@@ -16,7 +16,7 @@ import {counterReducer} from "./counter.reducer";
     BrowserModule,
     AppRoutingModule,
     // StoreModule.forRoot({}, {})
-    StoreModule.forRoot({count: counterReducer})
+    StoreModule.forRoot({count: counterReducer}) // This line added without tests
   ],
   providers: [],
   bootstrap: [AppComponent]
