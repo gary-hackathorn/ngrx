@@ -1,0 +1,17 @@
+PlayerCharacter
+  PlayerName:
+  CharacterName:
+  stats: Str,Dex,Con,Int,Wis,Cha
+
+ [{
+   'playerName': 'Scott Kurtz',
+   'characterName': 'Binwin Bronzebottom',
+   'stats':{
+        'str':18,
+        'con':16,
+        'dex':10,
+        'int':12,
+        'cha':9,
+   }
+ }]
+
